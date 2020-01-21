@@ -1,0 +1,33 @@
+Tape : [ S D D A D D E E]
+State: q1, Head : 0, Symbol : S
+New symbol S, Move : 1, Next State : q0, Halt : False
+
+Tape : [ S D D A D D E E]
+State: q1, Head : 1, Symbol : D
+New symbol D, Move : 1, Next State : q0, Halt : False
+
+Tape : [ S D D A D D E E]
+State: q1, Head : 2, Symbol : D
+New symbol D, Move : 1, Next State : q0, Halt : False
+
+Tape : [ S D D A D D E E]
+State: q1, Head : 3, Symbol : A
+New symbol D, Move : 1, Next State : q0, Halt : False
+
+Tape : [ S D D D D D E E]
+State: q1, Head : 4, Symbol : D
+New symbol D, Move : 1, Next State : q0, Halt : False
+
+Tape : [ S D D D D D E E]
+State: q1, Head : 5, Symbol : D
+New symbol D, Move : 1, Next State : q0, Halt : False
+
+Tape : [ S D D D D D E E]
+State: q1, Head : 6, Symbol : E
+New symbol E, Move : -1, Next State : q1, Halt : False
+
+Tape : [ S D D D D D E E]
+State: q2, Head : 5, Symbol : D
+New symbol Q, Move : -1, Next State : q0, Halt : True
+
+Final tape : [ S D D D D Q E E] 

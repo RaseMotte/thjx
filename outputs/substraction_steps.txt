@@ -1,0 +1,253 @@
+Tape : [ S D D D D D M D D D E E]
+State: q1, Head : 0, Symbol : S
+New symbol B, Move : 1, Next State : q0, Halt : False
+
+Tape : [ B D D D D D M D D D E E]
+State: q1, Head : 1, Symbol : D
+New symbol A, Move : 1, Next State : q0, Halt : False
+
+Tape : [ B A D D D D M D D D E E]
+State: q1, Head : 2, Symbol : D
+New symbol A, Move : 1, Next State : q0, Halt : False
+
+Tape : [ B A A D D D M D D D E E]
+State: q1, Head : 3, Symbol : D
+New symbol A, Move : 1, Next State : q0, Halt : False
+
+Tape : [ B A A A D D M D D D E E]
+State: q1, Head : 4, Symbol : D
+New symbol A, Move : 1, Next State : q0, Halt : False
+
+Tape : [ B A A A A D M D D D E E]
+State: q1, Head : 5, Symbol : D
+New symbol A, Move : 1, Next State : q0, Halt : False
+
+Tape : [ B A A A A A M D D D E E]
+State: q1, Head : 6, Symbol : M
+New symbol O, Move : 1, Next State : q1, Halt : False
+
+Tape : [ B A A A A A O D D D E E]
+State: q2, Head : 7, Symbol : D
+New symbol I, Move : 1, Next State : q1, Halt : False
+
+Tape : [ B A A A A A O I D D E E]
+State: q2, Head : 8, Symbol : D
+New symbol I, Move : 1, Next State : q1, Halt : False
+
+Tape : [ B A A A A A O I I D E E]
+State: q2, Head : 9, Symbol : D
+New symbol I, Move : 1, Next State : q1, Halt : False
+
+Tape : [ B A A A A A O I I I E E]
+State: q2, Head : 10, Symbol : E
+New symbol E, Move : -1, Next State : q1, Halt : False
+
+Tape : [ B A A A A A O I I I E E]
+State: q2, Head : 9, Symbol : I
+New symbol E, Move : -1, Next State : q0, Halt : False
+
+Tape : [ B A A A A A O I I E E E]
+State: q1, Head : 8, Symbol : I
+New symbol D, Move : -1, Next State : q0, Halt : False
+
+Tape : [ B A A A A A O I D E E E]
+State: q1, Head : 7, Symbol : I
+New symbol D, Move : -1, Next State : q0, Halt : False
+
+Tape : [ B A A A A A O D D E E E]
+State: q1, Head : 6, Symbol : O
+New symbol M, Move : -1, Next State : q0, Halt : False
+
+Tape : [ B A A A A A M D D E E E]
+State: q1, Head : 5, Symbol : A
+New symbol R, Move : -1, Next State : q0, Halt : False
+
+Tape : [ B A A A A R M D D E E E]
+State: q1, Head : 4, Symbol : A
+New symbol R, Move : -1, Next State : q0, Halt : False
+
+Tape : [ B A A A R R M D D E E E]
+State: q1, Head : 3, Symbol : A
+New symbol R, Move : -1, Next State : q0, Halt : False
+
+Tape : [ B A A R R R M D D E E E]
+State: q1, Head : 2, Symbol : A
+New symbol R, Move : -1, Next State : q0, Halt : False
+
+Tape : [ B A R R R R M D D E E E]
+State: q1, Head : 1, Symbol : A
+New symbol R, Move : -1, Next State : q0, Halt : False
+
+Tape : [ B R R R R R M D D E E E]
+State: q1, Head : 0, Symbol : B
+New symbol S, Move : 1, Next State : q1, Halt : False
+
+Tape : [ S R R R R R M D D E E E]
+State: q2, Head : 1, Symbol : R
+New symbol B, Move : 1, Next State : q0, Halt : False
+
+Tape : [ S B R R R R M D D E E E]
+State: q1, Head : 2, Symbol : R
+New symbol A, Move : 1, Next State : q0, Halt : False
+
+Tape : [ S B A R R R M D D E E E]
+State: q1, Head : 3, Symbol : R
+New symbol A, Move : 1, Next State : q0, Halt : False
+
+Tape : [ S B A A R R M D D E E E]
+State: q1, Head : 4, Symbol : R
+New symbol A, Move : 1, Next State : q0, Halt : False
+
+Tape : [ S B A A A R M D D E E E]
+State: q1, Head : 5, Symbol : R
+New symbol A, Move : 1, Next State : q0, Halt : False
+
+Tape : [ S B A A A A M D D E E E]
+State: q1, Head : 6, Symbol : M
+New symbol O, Move : 1, Next State : q1, Halt : False
+
+Tape : [ S B A A A A O D D E E E]
+State: q2, Head : 7, Symbol : D
+New symbol I, Move : 1, Next State : q1, Halt : False
+
+Tape : [ S B A A A A O I D E E E]
+State: q2, Head : 8, Symbol : D
+New symbol I, Move : 1, Next State : q1, Halt : False
+
+Tape : [ S B A A A A O I I E E E]
+State: q2, Head : 9, Symbol : E
+New symbol E, Move : -1, Next State : q1, Halt : False
+
+Tape : [ S B A A A A O I I E E E]
+State: q2, Head : 8, Symbol : I
+New symbol E, Move : -1, Next State : q0, Halt : False
+
+Tape : [ S B A A A A O I E E E E]
+State: q1, Head : 7, Symbol : I
+New symbol D, Move : -1, Next State : q0, Halt : False
+
+Tape : [ S B A A A A O D E E E E]
+State: q1, Head : 6, Symbol : O
+New symbol M, Move : -1, Next State : q0, Halt : False
+
+Tape : [ S B A A A A M D E E E E]
+State: q1, Head : 5, Symbol : A
+New symbol R, Move : -1, Next State : q0, Halt : False
+
+Tape : [ S B A A A R M D E E E E]
+State: q1, Head : 4, Symbol : A
+New symbol R, Move : -1, Next State : q0, Halt : False
+
+Tape : [ S B A A R R M D E E E E]
+State: q1, Head : 3, Symbol : A
+New symbol R, Move : -1, Next State : q0, Halt : False
+
+Tape : [ S B A R R R M D E E E E]
+State: q1, Head : 2, Symbol : A
+New symbol R, Move : -1, Next State : q0, Halt : False
+
+Tape : [ S B R R R R M D E E E E]
+State: q1, Head : 1, Symbol : B
+New symbol S, Move : 1, Next State : q1, Halt : False
+
+Tape : [ S S R R R R M D E E E E]
+State: q2, Head : 2, Symbol : R
+New symbol B, Move : 1, Next State : q0, Halt : False
+
+Tape : [ S S B R R R M D E E E E]
+State: q1, Head : 3, Symbol : R
+New symbol A, Move : 1, Next State : q0, Halt : False
+
+Tape : [ S S B A R R M D E E E E]
+State: q1, Head : 4, Symbol : R
+New symbol A, Move : 1, Next State : q0, Halt : False
+
+Tape : [ S S B A A R M D E E E E]
+State: q1, Head : 5, Symbol : R
+New symbol A, Move : 1, Next State : q0, Halt : False
+
+Tape : [ S S B A A A M D E E E E]
+State: q1, Head : 6, Symbol : M
+New symbol O, Move : 1, Next State : q1, Halt : False
+
+Tape : [ S S B A A A O D E E E E]
+State: q2, Head : 7, Symbol : D
+New symbol I, Move : 1, Next State : q1, Halt : False
+
+Tape : [ S S B A A A O I E E E E]
+State: q2, Head : 8, Symbol : E
+New symbol E, Move : -1, Next State : q1, Halt : False
+
+Tape : [ S S B A A A O I E E E E]
+State: q2, Head : 7, Symbol : I
+New symbol E, Move : -1, Next State : q0, Halt : False
+
+Tape : [ S S B A A A O E E E E E]
+State: q1, Head : 6, Symbol : O
+New symbol M, Move : -1, Next State : q0, Halt : False
+
+Tape : [ S S B A A A M E E E E E]
+State: q1, Head : 5, Symbol : A
+New symbol R, Move : -1, Next State : q0, Halt : False
+
+Tape : [ S S B A A R M E E E E E]
+State: q1, Head : 4, Symbol : A
+New symbol R, Move : -1, Next State : q0, Halt : False
+
+Tape : [ S S B A R R M E E E E E]
+State: q1, Head : 3, Symbol : A
+New symbol R, Move : -1, Next State : q0, Halt : False
+
+Tape : [ S S B R R R M E E E E E]
+State: q1, Head : 2, Symbol : B
+New symbol S, Move : 1, Next State : q1, Halt : False
+
+Tape : [ S S S R R R M E E E E E]
+State: q2, Head : 3, Symbol : R
+New symbol B, Move : 1, Next State : q0, Halt : False
+
+Tape : [ S S S B R R M E E E E E]
+State: q1, Head : 4, Symbol : R
+New symbol A, Move : 1, Next State : q0, Halt : False
+
+Tape : [ S S S B A R M E E E E E]
+State: q1, Head : 5, Symbol : R
+New symbol A, Move : 1, Next State : q0, Halt : False
+
+Tape : [ S S S B A A M E E E E E]
+State: q1, Head : 6, Symbol : M
+New symbol O, Move : 1, Next State : q1, Halt : False
+
+Tape : [ S S S B A A O E E E E E]
+State: q2, Head : 7, Symbol : E
+New symbol E, Move : -1, Next State : q1, Halt : False
+
+Tape : [ S S S B A A O E E E E E]
+State: q2, Head : 6, Symbol : O
+New symbol F, Move : -1, Next State : q1, Halt : False
+
+Tape : [ S S S B A A F E E E E E]
+State: q2, Head : 5, Symbol : A
+New symbol H, Move : -1, Next State : q1, Halt : False
+
+Tape : [ S S S B A H F E E E E E]
+State: q2, Head : 4, Symbol : A
+New symbol H, Move : -1, Next State : q1, Halt : False
+
+Tape : [ S S S B H H F E E E E E]
+State: q2, Head : 3, Symbol : B
+New symbol S, Move : 1, Next State : q1, Halt : False
+
+Tape : [ S S S S H H F E E E E E]
+State: q2, Head : 4, Symbol : H
+New symbol D, Move : 1, Next State : q1, Halt : False
+
+Tape : [ S S S S D H F E E E E E]
+State: q2, Head : 5, Symbol : H
+New symbol D, Move : 1, Next State : q1, Halt : False
+
+Tape : [ S S S S D D F E E E E E]
+State: q2, Head : 6, Symbol : F
+New symbol Q, Move : 0, Next State : q1, Halt : True
+
+Final tape : [ S S S S D D Q E E E E E] 
