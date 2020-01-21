@@ -1,6 +1,7 @@
 #!/usr/local/bin/python3
 
 from turing_machine import *
+import sys
 
 def add():
 
@@ -95,4 +96,12 @@ def substraction():
 
 
 if __name__ == "__main__":
-    substraction()
+    if len(sys.argv) != 2:
+        raise ValueError("Expected one argument to define the operation type: \"addition\" or \"substraction\"")
+    op = sys.argv[1]
+    if op == "substraction":
+        substraction()
+    elif op == "addition":
+        add()
+    else:
+        raise ValueError("Parameters are \"addition\" or \"substraction\"")
